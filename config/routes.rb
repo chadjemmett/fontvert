@@ -1,4 +1,6 @@
 Fontvert::Application.routes.draw do
+  get "check_inputs/target"
+
   match '/target', to: 'check_inputs#target'
   # The priority is based upon order of creation:
   # first created -> highest priority.
